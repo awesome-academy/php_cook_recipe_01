@@ -22,7 +22,7 @@ class CreateDishesTable extends Migration
             $table->float('protein_amount');
             $table->float('lipid_amount');
             $table->float('calories_amount');
-            $table->float('like_number');
+            $table->integer('like_number');
             $table->timestamps();
         });
     }
