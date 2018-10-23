@@ -14,8 +14,8 @@ class AddFourInfoRowsToUsersTable extends Migration
     public function up()
     {
         Schema::table('users', function (Blueprint $table) {
-            $table->string('facebook_id', 191)->unique();
-            $table->string('google_id', 191)->unique();
+            $table->string('facebook_id', 191)->unique()->nullable();
+            $table->string('google_id', 191)->unique()->nullable();
             $table->string('avatar', 191)->nullable();
             $table->string('phone', 191)->nullable();
         });
