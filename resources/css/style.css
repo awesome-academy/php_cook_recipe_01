@@ -47,7 +47,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
 	color: #5d0400;
-	font-family: Times New Roman;
+	font-family: Arial;
 
 }
 
@@ -63,7 +63,7 @@ h3 {
 }
 
 p {
-	margin-bottom: 18px;
+	margin-bottom: 10px;
 }
 
 p.inn1 {
@@ -249,7 +249,6 @@ header h1 a img {
 /*Content*/
 
 .content h2{ 
-	padding-top: 36px;
 	font-size: 24px;
 	color: #79302b;
 	margin-bottom: 17px;
@@ -321,10 +320,12 @@ header h1 a img {
 	background: #fff;
 	border: 1px solid #e6e4e4;
 	 -moz-box-sizing: border-box;
- -webkit-box-sizing: border-box;
- -o-box-sizing: border-box;
- box-sizing: border-box;
- margin-bottom: 19px;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+	height: 130px;
+	width: 220px;
 }
 
 .prev {
@@ -455,7 +456,14 @@ header h1 a img {
 	margin-bottom: 6px;
 	padding-top: 10px;
 }
+.carousel1 .icon_right {
+	float: right;
+	padding-right: 5px;
+}
 
+.carousel1 a {
+	text-decoration: none;
+}
 
 .prev1 {
 	background: url(../images/images-temp/prevnext.png) 0 bottom no-repeat;
@@ -581,7 +589,7 @@ margin-top: 13px;
 }
 
 #newsletter a.btn {
-	float: right;
+	float: left;
 	text-transform: capitalize;
 	font-size: 13px;
 	margin-top: 0;
@@ -673,7 +681,9 @@ address dd span {
 	text-align: left;
 }
 
-
+.viewmore{
+	margin: 25px auto 0px 10px;
+}
 
 
 /************Footer***********/
